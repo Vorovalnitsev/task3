@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    display: inline-block;
+    border: 1px solid #A8A8A8;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px 20px 20px 24px;
+}
+.square {
+    display: inline-block;
+    margin-left: -4px;
+    margin-top: -4px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #A8A8A8;
+    transition-duration: 1000ms;
+}
+
+button {
+    background-color: #ECECEC;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
